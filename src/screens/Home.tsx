@@ -105,7 +105,7 @@ const Home = () => {
                     style={{ width: 30, height: 30 }}
                     resizeMode="contain"
                   />
-                  <View style={{ marginLeft: 15 }}>
+                  <View style={{ marginLeft: 8 }}>
                     <Text style={styles.taskText}>{item.title}</Text>
                     <Text style={styles.bonusText2}>{item.bonus}</Text>
                   </View>
@@ -135,7 +135,7 @@ const Home = () => {
                       style={{ width: 30, height: 30 }}
                       resizeMode="contain"
                     />
-                    <View style={{ marginLeft: 15 }}>
+                    <View style={{ marginLeft: 8 }}>
                       <Text style={styles.bonusText2}>{item.bonus}</Text>
                     </View>
                   </View>
@@ -185,8 +185,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#1E1E1E",
     borderRadius: 15,
     padding: 15,
-    marginBottom: 20,
+    marginBottom: 60,
     marginTop: 80,
+    
   },
   header: {
     fontSize: 18,
